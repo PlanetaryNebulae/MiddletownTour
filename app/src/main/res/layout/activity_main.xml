@@ -9,10 +9,10 @@
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tab_layout"
-        app:tabTextAppearance="@style/TabTextSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabMode="fixed" />
+        app:tabMode="fixed"
+        app:tabTextAppearance="@style/TabTextSize" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
